@@ -2,7 +2,7 @@
     "name": "klipeld/text_to_barcode",
     "description": "Package for converting text to barcode",
     "type": "library",
-    "license": "klipeld",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Klipeld\\TextToBarcode\\": "src/"
@@ -12,9 +12,12 @@
         {
             "name": "KlipeLd Julia",
             "email": "klipe.ld@gmail.com",
-			"homepage": "https://php-developer-polska.pl"
+			"homepage": "https://php-developer-polska.pl",
+			"role": "Developer"
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+		"php": ">=7.4"
+	}
 }
