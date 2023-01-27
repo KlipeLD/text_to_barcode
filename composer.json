@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "KlipeLd\\text_to_barcode\\": "src/TextToBarcode"
+            "KlipeLD\\text_to_barcode\\": "src/TextToBarcode"
         }
     },
     "authors": [
