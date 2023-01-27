@@ -1,6 +1,6 @@
 <?php
 
-namespace KlipeLD\text_to_barcode;
+namespace KlipeLD\TextToBarcode;
 
 class Code128ToBarcode
 {
