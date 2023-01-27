@@ -1,5 +1,7 @@
 <?php
 
+namespace KlipeLD\text_to_barcode;
+
 class Code128ToBarcode
 {
     private static function testNumeric(array $text, int $i, int $mini) : int
