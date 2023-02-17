@@ -10,7 +10,7 @@ Install the package via composer: `composer require klipeld/text_to_barcode`
  
 ## How to use - Simple example
 
-`
+```php
 echo"
 <style>
 @font-face {
@@ -19,7 +19,7 @@ echo"
 }
 </style>
 <div style='color: black; font-family: myFirstFont;font-size: 70px'>".Code128ToBarcode::codeIt("Hello world :)")."</div>";
-`
+```
 
 ## Which characters can be encoded in the barcode CODE-128?
 
