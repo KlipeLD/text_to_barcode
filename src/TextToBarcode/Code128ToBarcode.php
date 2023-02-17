@@ -68,7 +68,7 @@ class Code128ToBarcode
                 if ($mini < 0)
                 {
                     $char2 = intval($text[$i] . $text[$i + 1]);
-                    $char2 += (mb_ord($char2,'UTF-8') < 95 ? 32 : 105);
+                    $char2 += ($char2 < 95 ? 32 : 105);
                     $code128 .= mb_chr($char2, 'UTF-8');
                     $i += 2;
                 }
