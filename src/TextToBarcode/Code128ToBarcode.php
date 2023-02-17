@@ -95,7 +95,7 @@ class Code128ToBarcode
             $checksum = ($checksum + $i * $char2) % 103;
 
         }
-        $checksum += (mb_ord($checksum,'UTF-8') < 95 ? 32 : 105);
+        $checksum += ($checksum < 95 ? 32 : 105);
         $code128 .= mb_chr($checksum,'UTF-8') . mb_chr(211, 'UTF-8');
 
         return $code128;
